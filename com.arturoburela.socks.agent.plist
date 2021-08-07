@@ -8,7 +8,7 @@
 	<string>Aqua</string>
 	<key>ProgramArguments</key>
 	<array>
-	  <string>/usr/local/bin/socks-server</string>
+	  <string>/usr/local/bin/socks-server-agent</string>
 	</array>
 	<key>RunAtLoad</key>
 	<true/>
