@@ -19,3 +19,8 @@ Simple launchd agent to keep running a socks proxy in macOs. This is useful for 
 When using pem keys to connect to remote ssh server, it's possible access to the key is denied by SIP and the socks proxy is unable to start. To give the executable access, open Security & Privacy preferences, and open Full Disk Access. Finally drag and drop the executable:
 
 ![SIP - Full disk access](docs/socks-sip.png)
+
+## Troubleshooting
+
+### Agent won't start after OS upgrade
+For some reason, after upgrading your OS version is possible the agent stops loading, try running `install.sh` again and reboot.
